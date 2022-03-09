@@ -23,6 +23,7 @@
                 <li>Go to <a href="https://pushjs.org/">push.org</a></li>
                 <li>Install package by npm run</a></li>
                 <li>Write this line in your webpack.mix.js file in your project rood directory - mix.copy('node_modules/push.js/bin/push.min.js', 'public/assets/js/push.min.js');</a></li>
+                <li>Run in your terminal 'npm run dev' to compile</li>
                 <li>Include before end body tag <script src="{{ asset('public/assets/js/push.min.js') }}"></script></li>
                 <li>Write <script src="">Push.create('Hello World!')</script></li>
                 <li>To see push notification need run your project with https (you can setup virtual host in your xampp server in local machine)</li>
