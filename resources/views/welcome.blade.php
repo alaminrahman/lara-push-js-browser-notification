@@ -128,5 +128,19 @@
                 </div>
             </div>
         </div>
+
+        <script src="{{ asset('public/assets/js/push.min.js') }}"></script>
+        <script>
+            Push.create("Yeah! Got Ha Ha", {
+                body: "Boom! Yeah got it",
+                icon: '{{ asset("public/assets/img/alamin.jpg") }}',
+                timeout: 4000,
+                onClick: function () {
+                    window.focus();
+                    this.close();
+                }
+            });
+        </script>
     </body>
+    
 </html>
